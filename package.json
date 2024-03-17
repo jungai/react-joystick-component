@@ -33,6 +33,7 @@
   "author": "elmarti elmarti.tech@gmail.com",
   "license": "MIT",
   "devDependencies": {
+    "@biomejs/biome": "1.6.1",
     "@chromatic-com/storybook": "^1.2.22",
     "@storybook/addon-essentials": "^8.0.0",
     "@storybook/addon-interactions": "^8.0.0",
