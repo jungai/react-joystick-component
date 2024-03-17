@@ -9,7 +9,7 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Bundler",
     "skipLibCheck": true,
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -24,11 +24,5 @@
     }
   },
   "include": ["src/**/*", "types/**/*"],
-  "exclude": [
-    "node_modules",
-    "dist",
-    "scripts",
-    "src/Joystick.stories.tsx",
-    "src/Joystick.test.tsx"
-  ]
+  "exclude": ["node_modules", "dist", "scripts", "src/joystick.stories.tsx"]
 }
